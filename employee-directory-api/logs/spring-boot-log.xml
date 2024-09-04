@@ -1,0 +1,1880 @@
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467502073" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 22736 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467502078" level="INFO" thread="restartedMain">
+  <log4j:message>No active profile set, falling back to 1 default profile: &quot;default&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725467502167" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725467502167" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467504257" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467504274" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725467504278" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725467504279" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725467504370" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725467504377" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 2193 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725467504810" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 7b189644-85c9-4647-8cb1-282296a19329
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725467504859" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725467505337" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725467505852" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467505913" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467505957" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467505982" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 4.424 seconds (process running for 5.437)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467532517" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 18068 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467532528" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725467532609" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725467532609" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467534392" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467534404" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725467534407" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725467534408" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725467534481" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725467534484" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 1870 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725467534794" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: c2a6541f-0382-43fc-9e33-aa4fba1b8ca0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725467534825" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725467535211" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725467535636" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467535688" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467535723" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467535763" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 3.657 seconds (process running for 4.515)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725467659251" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467659274" level="INFO" thread="Thread-5">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467659425" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 18068 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467659426" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467659836" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467659839" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725467659840" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725467659840" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725467659862" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725467659862" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 431 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725467659916" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 681db7ab-84e5-4c77-bc1c-4654f4d509cb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725467659918" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725467659981" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725467660028" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467660039" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467660042" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467660050" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.663 seconds (process running for 128.802)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725467660054" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725467693232" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467693237" level="INFO" thread="Thread-7">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467693391" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 18068 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467693392" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467693744" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467693745" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725467693746" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725467693746" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725467693766" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725467693767" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 371 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725467693805" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: d25c9302-f861-4731-a0bb-1cecb91bc932
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725467693810" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725467693863" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725467693895" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467693903" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467693911" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467693916" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.558 seconds (process running for 162.668)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725467693918" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467693919" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725467733328" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467733333" level="INFO" thread="Thread-11">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467733551" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 18068 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467733554" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467733938" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467733939" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725467733940" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725467733940" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725467733960" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725467733960" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 397 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725467733997" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 580060d0-3227-4746-8bfd-24af6007a199
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725467733998" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725467734058" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725467734089" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467734097" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467734102" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467734111" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.63 seconds (process running for 202.863)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725467734113" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467734114" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467901474" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 9504 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467901486" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725467901552" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725467901552" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467903287" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467903300" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725467903304" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725467903305" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725467903378" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725467903429" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 1860 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725467903782" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: d34e483a-8965-46ac-9f8d-4176e21af14e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725467903820" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725467904172" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725467904607" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725467904654" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725467904688" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467904707" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 3.67 seconds (process running for 4.509)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725467904777" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468130240" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468130252" level="INFO" thread="Thread-5">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468130469" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 9504 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468130470" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468130896" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468130897" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468130897" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468130897" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468130922" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468130922" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 450 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468130985" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 9a3ed56a-bee9-4b0f-a53a-6e87d3623e33
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468130987" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468131062" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468131126" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468131138" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468131144" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468131150" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.721 seconds (process running for 230.952)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468131154" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468131155" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468132916" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 25376 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468132922" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725468133001" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725468133001" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468134956" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468134972" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468134976" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468134976" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468135065" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468135070" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 2063 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468135436" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: e092ccc6-8dc5-4fad-889e-c3ab9588cd71
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468135472" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468154882" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 18272 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468154885" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725468154963" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725468154964" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468156863" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468156879" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468156879" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468156879" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468156941" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468156941" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 1976 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468157256" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 57537836-ac21-45f7-8d21-8faae6b57be1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468157287" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468157646" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468158037" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468158084" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468158115" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468158131" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 3.595 seconds (process running for 4.522)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468158209" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468274596" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468274611" level="INFO" thread="Thread-5">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468274799" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 18272 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468274801" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468275179" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468275180" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468275180" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468275181" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468275206" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468275206" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 396 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468275257" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 73302f8e-054f-4881-8f22-90af1b14a9cb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468275260" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468275320" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468275371" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468275382" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468275386" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468275395" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.635 seconds (process running for 121.777)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468275398" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468275399" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468299248" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 19680 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468299253" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725468299332" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725468299332" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468301147" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468301165" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468301168" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468301169" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468301237" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468301238" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 1904 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468301618" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: bac3fd8e-f9fe-435e-bbed-f85eaa044a9c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468301655" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468302169" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468302602" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468302669" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468302704" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468302727" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 3.89 seconds (process running for 4.859)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468302805" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468314053" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725468314053" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Servlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725468314053" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Completed initialization in 0 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468529418" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468529438" level="INFO" thread="Thread-5">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468529723" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 19680 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468529723" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468530288" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468530290" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468530290" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468530291" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468530316" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468530316" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 586 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468530418" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: e78690a6-4cb7-44b3-9c9f-2d78c23514e9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468530419" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468530509" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468530582" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468530594" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468530598" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468530607" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.939 seconds (process running for 232.739)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468530611" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468530612" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468548411" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468548418" level="INFO" thread="Thread-7">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468548587" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 19680 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468548588" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468548997" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468548998" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468548999" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468548999" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468549023" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468549023" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 430 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468549062" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 117b91f7-75e9-42ec-bd08-3744c68d9589
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468549063" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468549116" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468549155" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468549164" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468549169" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468549175" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.62 seconds (process running for 251.307)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468549177" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468549178" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468552660" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725468552660" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Servlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725468552661" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Completed initialization in 1 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468574274" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468574284" level="INFO" thread="Thread-11">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468574433" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 19680 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468574433" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468574745" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468574747" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468574748" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468574748" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468574769" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468574769" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 334 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468574812" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: 894d2ec7-3061-4f49-b74f-86d67d51ded1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468574813" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468574861" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468574895" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468574933" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468574936" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468574942" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.543 seconds (process running for 277.074)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468574945" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468574945" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468580363" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725468580363" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Servlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725468580365" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Completed initialization in 1 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468595801" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468595805" level="INFO" thread="Thread-15">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468595963" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 19680 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468595963" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468596280" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468596281" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468596281" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468596281" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468596300" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468596301" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 334 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468596350" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: d7e1788d-cb25-4f74-bed2-6c9952eda56d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468596351" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468596405" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468596442" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468596450" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468596455" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468596461" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.553 seconds (process running for 298.592)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468596463" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468596464" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468680114" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468680125" level="INFO" thread="Thread-19">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468680285" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 19680 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468680285" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468680615" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468680617" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725468680617" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725468680617" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725468680644" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725468680644" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 356 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration"
+             timestamp="1725468680699" level="WARN" thread="restartedMain">
+  <log4j:message>
+
+Using generated security password: faa2f012-e32f-466e-83b0-a3edadd580ba
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725468680701" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725468680765" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725468680813" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468680822" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725468680828" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468680835" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 0.605 seconds (process running for 382.966)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725468680838" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725468680839" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725468707929" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725468707935" level="INFO" thread="Thread-23">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+

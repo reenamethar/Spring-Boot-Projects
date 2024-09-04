@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    
+    <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- PatternLayoutEncoder for human-readable console output -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %X{correlationId} %X{applicationName} %X{environment} %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Rolling File Appender with XML encoder -->
+    <appender name="XML_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/spring-boot-log.xml</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Roll logs daily -->
+            <fileNamePattern>logs/spring-boot-log.%d{yyyy-MM-dd}.xml</fileNamePattern>
+            <maxHistory>30</maxHistory> <!-- Keep 30 days of logs -->
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.log4j.XMLLayout"/>
+        </encoder>
+    </appender>
+
+    <!-- Root Logger Configuration -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="XML_FILE" />
+    </root>
+
+</configuration>
