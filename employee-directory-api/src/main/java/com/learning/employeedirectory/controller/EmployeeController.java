@@ -3,6 +3,7 @@ package com.learning.employeedirectory.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +17,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 
 @RestController
-@RequestMapping("/api/v1/employees")
+@RequestMapping("/api/v1")
 public class EmployeeController {
 	private EmployeeService employeeService;
 	public EmployeeController(EmployeeService theEmployeeService) {
@@ -44,8 +45,14 @@ public class EmployeeController {
 							)
 			}
 			)
-	@GetMapping("/")
+	@GetMapping("/employees")
 	public List<Employee> listEmployees(){
 		return employeeService.listEmployees();
+	}
+	
+	@GetMapping("/employees/{employeeId}")
+	public Employee getEmployeeById(@PathVariable("employeeId") int id) {
+		Employee emp = employeeService.findEmployeById(id);
+		return emp;
 	}
 }
