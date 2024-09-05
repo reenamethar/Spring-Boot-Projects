@@ -9,7 +9,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class ActuatorSecurityConfig {
 	@Bean
-	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+	public SecurityFilterChain filterChainActuator(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests(authorizeRequest ->authorizeRequest
 				.requestMatchers("/actuator/health/**").permitAll() // Public access to health endpoints
 				.requestMatchers("/actuator/**").hasRole("ADMIN") // ther actuator endpoints require admin role
