@@ -1,0 +1,642 @@
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901423309" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 1656 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\Spring-Boot-Projects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\Spring-Boot-Projects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901423316" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725901423415" level="INFO" thread="restartedMain">
+  <log4j:message>Devtools property defaults active! Set &#39;spring.devtools.add-properties&#39; to &#39;false&#39; to disable</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor"
+             timestamp="1725901423415" level="INFO" thread="restartedMain">
+  <log4j:message>For additional web related logging consider setting the &#39;logging.level.web&#39; property to &#39;DEBUG&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.data.repository.config.RepositoryConfigurationDelegate"
+             timestamp="1725901424797" level="INFO" thread="restartedMain">
+  <log4j:message>Bootstrapping Spring Data JPA repositories in DEFAULT mode.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.data.repository.config.RepositoryConfigurationDelegate"
+             timestamp="1725901424847" level="INFO" thread="restartedMain">
+  <log4j:message>Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725901426053" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901426071" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725901426078" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725901426079" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725901426158" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725901426162" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 2743 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901426610" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-1 - Starting...</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool"
+             timestamp="1725901427045" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5df8f222</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901427046" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-1 - Start completed.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.jpa.internal.util.LogHelper"
+             timestamp="1725901427098" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000204: Processing PersistenceUnitInfo [name: default]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.Version"
+             timestamp="1725901427191" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000412: Hibernate ORM core version 6.5.2.Final</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.cache.internal.RegionFactoryInitiator"
+             timestamp="1725901427320" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000026: Second-level cache disabled</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo"
+             timestamp="1725901427844" level="INFO" thread="restartedMain">
+  <log4j:message>No LoadTimeWeaver setup: ignoring JPA class transformer</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator"
+             timestamp="1725901428701" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000489: No JTA platform available (set &#39;hibernate.transaction.jta.platform&#39; to enable JTA platform integration)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+             timestamp="1725901428704" level="INFO" thread="restartedMain">
+  <log4j:message>Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration"
+             timestamp="1725901429432" level="WARN" thread="restartedMain">
+  <log4j:message>spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725901429549" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725901430238" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725901431110" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901431201" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725901431246" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901431263" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 8.344 seconds (process running for 9.24)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901431346" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725901560028" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725901560028" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Servlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725901560044" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Completed initialization in 16 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725901691263" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901691268" level="INFO" thread="Thread-5">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+             timestamp="1725901691316" level="INFO" thread="Thread-5">
+  <log4j:message>Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901691321" level="INFO" thread="Thread-5">
+  <log4j:message>HikariPool-1 - Shutdown initiated...</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901691333" level="INFO" thread="Thread-5">
+  <log4j:message>HikariPool-1 - Shutdown completed.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901691439" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 1656 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\Spring-Boot-Projects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\Spring-Boot-Projects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901691439" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.data.repository.config.RepositoryConfigurationDelegate"
+             timestamp="1725901691748" level="INFO" thread="restartedMain">
+  <log4j:message>Bootstrapping Spring Data JPA repositories in DEFAULT mode.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.data.repository.config.RepositoryConfigurationDelegate"
+             timestamp="1725901691758" level="INFO" thread="restartedMain">
+  <log4j:message>Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725901691937" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901691938" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725901691938" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725901691938" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725901691956" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725901691956" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 514 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901692076" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-2 - Starting...</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool"
+             timestamp="1725901692097" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e8d042</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901692097" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-2 - Start completed.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.jpa.internal.util.LogHelper"
+             timestamp="1725901692102" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000204: Processing PersistenceUnitInfo [name: default]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.cache.internal.RegionFactoryInitiator"
+             timestamp="1725901692109" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000026: Second-level cache disabled</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo"
+             timestamp="1725901692140" level="INFO" thread="restartedMain">
+  <log4j:message>No LoadTimeWeaver setup: ignoring JPA class transformer</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator"
+             timestamp="1725901692185" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000489: No JTA platform available (set &#39;hibernate.transaction.jta.platform&#39; to enable JTA platform integration)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+             timestamp="1725901692185" level="INFO" thread="restartedMain">
+  <log4j:message>Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration"
+             timestamp="1725901692358" level="WARN" thread="restartedMain">
+  <log4j:message>spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725901692385" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725901692606" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725901692855" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901692867" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725901692871" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901692877" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 1.475 seconds (process running for 270.854)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725901692881" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901692881" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725901697963" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725901697964" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Initializing Servlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725901697965" level="INFO" thread="http-nio-8080-exec-1">
+  <log4j:message>Completed initialization in 1 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springdoc.api.AbstractOpenApiResource"
+             timestamp="1725901698637" level="INFO" thread="http-nio-8080-exec-10">
+  <log4j:message>Init duration for springdoc-openapi is: 236 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener"
+             timestamp="1725901727218" level="INFO" thread="File Watcher">
+  <log4j:message>Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901727220" level="INFO" thread="Thread-7">
+  <log4j:message>Stopping ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+             timestamp="1725901727274" level="INFO" thread="Thread-7">
+  <log4j:message>Closing JPA EntityManagerFactory for persistence unit &#39;default&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901727275" level="INFO" thread="Thread-7">
+  <log4j:message>HikariPool-2 - Shutdown initiated...</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901727286" level="INFO" thread="Thread-7">
+  <log4j:message>HikariPool-2 - Shutdown completed.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901727369" level="INFO" thread="restartedMain">
+  <log4j:message>Starting EmployeeDirectoryApiApplication using Java 17.0.11 with PID 1656 (C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\Spring-Boot-Projects\employee-directory-api\target\classes started by user in C:\Users\user\Desktop\Learning2-0\Github-checkins\SpringBootProjects\Spring-Boot-Projects\employee-directory-api)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901727369" level="INFO" thread="restartedMain">
+  <log4j:message>The following 1 profile is active: &quot;dev&quot;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.data.repository.config.RepositoryConfigurationDelegate"
+             timestamp="1725901727660" level="INFO" thread="restartedMain">
+  <log4j:message>Bootstrapping Spring Data JPA repositories in DEFAULT mode.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.data.repository.config.RepositoryConfigurationDelegate"
+             timestamp="1725901727672" level="INFO" thread="restartedMain">
+  <log4j:message>Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725901727810" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat initialized with port 8080 (http)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901727811" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardService"
+             timestamp="1725901727812" level="INFO" thread="restartedMain">
+  <log4j:message>Starting service [Tomcat]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.StandardEngine"
+             timestamp="1725901727812" level="INFO" thread="restartedMain">
+  <log4j:message>Starting Servlet engine: [Apache Tomcat/10.1.28]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725901727836" level="INFO" thread="restartedMain">
+  <log4j:message>Initializing Spring embedded WebApplicationContext</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+             timestamp="1725901727836" level="INFO" thread="restartedMain">
+  <log4j:message>Root WebApplicationContext: initialization completed in 465 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901727925" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-3 - Starting...</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool"
+             timestamp="1725901727940" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c4102f9</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.HikariDataSource"
+             timestamp="1725901727940" level="INFO" thread="restartedMain">
+  <log4j:message>HikariPool-3 - Start completed.</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.jpa.internal.util.LogHelper"
+             timestamp="1725901727941" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000204: Processing PersistenceUnitInfo [name: default]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.cache.internal.RegionFactoryInitiator"
+             timestamp="1725901727945" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000026: Second-level cache disabled</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo"
+             timestamp="1725901727953" level="INFO" thread="restartedMain">
+  <log4j:message>No LoadTimeWeaver setup: ignoring JPA class transformer</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator"
+             timestamp="1725901727990" level="INFO" thread="restartedMain">
+  <log4j:message>HHH000489: No JTA platform available (set &#39;hibernate.transaction.jta.platform&#39; to enable JTA platform integration)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+             timestamp="1725901727990" level="INFO" thread="restartedMain">
+  <log4j:message>Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration"
+             timestamp="1725901728110" level="WARN" thread="restartedMain">
+  <log4j:message>spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer"
+             timestamp="1725901728136" level="INFO" thread="restartedMain">
+  <log4j:message>Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver"
+             timestamp="1725901728274" level="INFO" thread="restartedMain">
+  <log4j:message>Exposing 1 endpoint beneath base path &#39;/actuator&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer"
+             timestamp="1725901728500" level="INFO" thread="restartedMain">
+  <log4j:message>LiveReload server is running on port 35729</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.coyote.http11.Http11NioProtocol"
+             timestamp="1725901728510" level="INFO" thread="restartedMain">
+  <log4j:message>Starting ProtocolHandler [&quot;http-nio-8080&quot;]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.web.embedded.tomcat.TomcatWebServer"
+             timestamp="1725901728514" level="INFO" thread="restartedMain">
+  <log4j:message>Tomcat started on port 8080 (http) with context path &#39;/&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901728526" level="INFO" thread="restartedMain">
+  <log4j:message>Started EmployeeDirectoryApiApplication in 1.178 seconds (process running for 306.503)</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener"
+             timestamp="1725901728529" level="INFO" thread="restartedMain">
+  <log4j:message>Condition evaluation unchanged</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.learning.employeedirectory.EmployeeDirectoryApiApplication"
+             timestamp="1725901728529" level="INFO" thread="restartedMain">
+  <log4j:message>Hello in the main class</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"
+             timestamp="1725901734908" level="INFO" thread="http-nio-8080-exec-2">
+  <log4j:message>Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725901734909" level="INFO" thread="http-nio-8080-exec-2">
+  <log4j:message>Initializing Servlet &#39;dispatcherServlet&#39;</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.DispatcherServlet"
+             timestamp="1725901734911" level="INFO" thread="http-nio-8080-exec-2">
+  <log4j:message>Completed initialization in 2 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springdoc.api.AbstractOpenApiResource"
+             timestamp="1725901735087" level="INFO" thread="http-nio-8080-exec-10">
+  <log4j:message>Init duration for springdoc-openapi is: 55 ms</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver"
+             timestamp="1725901793741" level="WARN" thread="http-nio-8080-exec-9">
+  <log4j:message>Resolved [com.learning.employeedirectory.errorHandling.EmployeeNotFoundException: Employee not found with employee id 111]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver"
+             timestamp="1725901921615" level="WARN" thread="http-nio-8080-exec-5">
+  <log4j:message>Resolved [com.learning.employeedirectory.errorHandling.EmployeeNotFoundException: Employee not found with employee id 111]</log4j:message>
+
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool"
+             timestamp="1725903406819" level="WARN" thread="HikariPool-3 housekeeper">
+  <log4j:message>HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m58s311ms337µs).</log4j:message>
+
+</log4j:event>
+

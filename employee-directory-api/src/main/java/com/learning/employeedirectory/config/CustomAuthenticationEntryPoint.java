@@ -18,7 +18,7 @@ public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint{
 			AuthenticationException authException) throws IOException, ServletException {
 		response.setContentType("application/json");
 		response.setStatus(response.SC_UNAUTHORIZED);
-		response.getWriter().write("{\"error\": \"Credentials are missing\"}");
+		response.getWriter().write("{\"error\": \"Credentials are invalid\"}");
 		
 	}
 

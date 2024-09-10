@@ -18,7 +18,7 @@ public class CustomAuthenticationFailureHandler implements AuthenticationFailure
 			AuthenticationException exception) throws IOException, ServletException {
 		response.setContentType("application/json");
 		response.setStatus(response.SC_UNAUTHORIZED);
-		response.getWriter().write("{\"error\": \"Credentials are invalid\"}");
+		response.getWriter().write("{\"error\": \"Credentials are invalid (handler)\"}");
 		
 	}
 
