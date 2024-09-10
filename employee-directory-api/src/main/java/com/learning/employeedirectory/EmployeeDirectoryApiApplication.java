@@ -19,7 +19,7 @@ public class EmployeeDirectoryApiApplication {
 		MDC.put("correlationId", UUID.randomUUID().toString());
         MDC.put("applicationName", "employee-directory-api");
         /*
-         * Also we cannot put spring managed beans here, those will not be initialized at this point
+         * Also we cannot put spring managed beans here, those will not be initialized at this point (Environment)
          * In Spring Boot, beans (including the Environment bean) are only available after the Spring context has been initialized, which happens inside the SpringApplication.run call.
          * The MDC (Mapped Diagnostic Context) is thread-local, which means it only applies within the current thread where it is set. If you're setting MDC values in an interceptor or filter that handles HTTP requests, those values will not be available in the main method of your Spring Boot application since the main method is executed in the main thread before any HTTP requests are processed.
          * Thus setting those values here also

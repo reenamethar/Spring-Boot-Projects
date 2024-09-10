@@ -22,13 +22,14 @@ public class SecurityConfig {
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests(authorize -> authorize
-				.requestMatchers(HttpMethod.GET, "/api/v1/employees/health").permitAll()
+				.requestMatchers("/actuator/health/**").permitAll() // Public access to health endpoints
+				.requestMatchers("/actuator/**").hasRole("ADMIN") // ther actuator endpoints require admin role
 				.requestMatchers(HttpMethod.GET, "/api/v1/employees/swagger").permitAll()
 				.requestMatchers(HttpMethod.GET, "/api/v1/employees/swagger-ui/**").permitAll()
 				.requestMatchers(HttpMethod.GET, "/api/v1/employees/api-docs/**").permitAll()
 				.anyRequest().authenticated()
 				);
-
+		http.httpBasic();
 		http.exceptionHandling(exception->exception
 				.accessDeniedHandler(customAccessDeniedHandler)
 				.authenticationEntryPoint(customAuthenticationEntryPoint)
@@ -36,7 +37,7 @@ public class SecurityConfig {
 		http.formLogin(login-> login
 				.failureHandler(customAuthenticationFailureHandler));
 		http.csrf(csrf->csrf.disable());
-		http.httpBasic();
+		
 		return http.build();
 		
 	}

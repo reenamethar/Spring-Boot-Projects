@@ -36,8 +36,8 @@ public class EmployeeController {
 									)
 							),
 					@ApiResponse(
-							responseCode = "500",
-							description = "Internal server error",
+							responseCode = "400",
+							description = "Bad Request",
 							content = @Content(
 									schema = @Schema(implementation = ErrorResponse.class),
 									mediaType = "application/json"
@@ -50,6 +50,37 @@ public class EmployeeController {
 		return employeeService.listEmployees();
 	}
 	
+	@Operation(summary="To get details of an employee",
+			description="To retrieve any employee based on employee id",
+			responses = {
+					@ApiResponse(
+							responseCode = "200",
+							description = "An Employee retrieved",
+							content = @Content(
+								schema = @Schema(implementation = Employee.class),
+								mediaType = "application/json"
+								)
+							),
+					@ApiResponse(
+							responseCode ="404",
+							description= "Employee Not found",
+							content = @Content(
+									schema = @Schema(implementation= ErrorResponse.class),
+									mediaType = "application/json"
+									)
+							
+							),
+					@ApiResponse(
+							responseCode = "400",
+							description = "Bad Request",
+							content = @Content(
+									schema = @Schema(implementation = ErrorResponse.class),
+									mediaType = "application/json"
+									)
+							
+							)
+			}
+			)
 	@GetMapping("/employees/{employeeId}")
 	public Employee getEmployeeById(@PathVariable("employeeId") int id) {
 		Employee emp = employeeService.findEmployeById(id);

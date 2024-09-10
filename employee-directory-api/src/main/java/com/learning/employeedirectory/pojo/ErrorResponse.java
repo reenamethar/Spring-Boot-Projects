@@ -4,9 +4,9 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(description = "Error Response")
 public class ErrorResponse {
-	@Schema(description ="status code", example="500")
+	@Schema(description ="status code", example="400")
 	private int status;
-	@Schema(description ="Error message", example="Internal Server Error")
+	@Schema(description ="Error message", example="Bad Request")
 	private String message;
 	@Schema(description ="timestamp", example="20240905")
 	private long timestamp;
